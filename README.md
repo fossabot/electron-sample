@@ -1,5 +1,7 @@
 # electron-sample
 
+Vue sample application with Vuetify and Electron.
+
 ## Project setup
 ```
 yarn install
@@ -18,6 +20,16 @@ yarn build
 ### Lints and fixes files
 ```
 yarn lint
+```
+
+### Opens the electron application
+```
+yarn electron:serve
+```
+
+### Creates the electron application
+```
+yarn electron:build
 ```
 
 ### Customize configuration
